@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+prerequisites="$dir/../requirements.txt"
+
+pip install -r $prerequisites

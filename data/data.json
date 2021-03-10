@@ -1,0 +1,34 @@
+[
+    {
+        "_id": 13860428,
+        "product_id": 13860428,
+        "current_price": {
+            "currency_code": "USD",
+            "value": 99.99
+        }
+    },
+    {
+        "_id": 54456119,
+        "product_id": 54456119,
+        "current_price": {
+            "currency_code": "USD",
+            "value": 14.98
+        }
+    },
+    {
+        "_id": 13264003,
+        "product_id": 13264003,
+        "current_price": {
+            "currency_code": "USD",
+            "value": 49.00
+        }
+    },
+    {
+        "_id": 12954218,
+        "product_id": 12954218,
+        "current_price": {
+            "currency_code": "USD",
+            "value": 55.29
+        }
+    }
+]

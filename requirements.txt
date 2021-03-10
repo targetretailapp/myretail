@@ -1,0 +1,7 @@
+Flask
+flask_restful
+pymongo
+requests
+configparser
+parse
+urllib3
