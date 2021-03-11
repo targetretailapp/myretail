@@ -10,7 +10,7 @@ myRetail headquartered in Richmond, VA is a rapidly growing company. We are desi
 ## How to run the application? 
 
 ### Pre-requisites
-1. Install and running [mongodb](https://docs.mongodb.com/manual/installation/).
+1. Install and run [mongodb](https://docs.mongodb.com/manual/installation/).
 2. Install required packages for application to run in virtual environment. 
 
     ```
