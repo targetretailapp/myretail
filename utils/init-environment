@@ -1,7 +1,14 @@
 #!/usr/bin/env bash
 
-dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+HOME_DIR=`pwd`
+venvDir="$HOME_DIR/venv"
 
-prerequisites="$dir/../requirements.txt"
+if [[ ! -d "$venvDir" ]]; then
+    python3 -m venv venv
+fi
 
-pip install -r $prerequisites
+source "${HOME_DIR}/venv/bin/activate"
+
+REQUIREMENTS="${HOME_DIR}/requirements.txt"
+
+pip install -r ${REQUIREMENTS}
