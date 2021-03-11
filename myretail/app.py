@@ -17,15 +17,5 @@ class Products(Resource):
         response.status_code = 200
         return response
 
-        # print(type(details.pricedetails(product_id)))
-        # if data == None:
-        #     return (None, 404)
-        # else:
-        #     response = Response(content_type="application/json")
-        #     response.set_data(data)
-        #     response.status_code = 200
-        #     return response
-
-
 api.add_resource(Products, '/products/<int:product_id>') # http://<hostname>:<port>/products/{product_id}
 
