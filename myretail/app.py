@@ -1,7 +1,5 @@
 from flask import Flask, Response
 from flask_restful import Resource, Api
-# from requests import api
-# import json
 from myretail.pricedetails import PriceDetails
 
 app = Flask(__name__)
