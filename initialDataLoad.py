@@ -7,6 +7,7 @@ def dataLoad():
     """
     db=Database()
     db.dataload()
-
-dataLoad()
+    
+if __name__ == "__main__":
+    dataLoad()
 
