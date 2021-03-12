@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# HOME_DIR should be set to folder where myretail codebase is checked out
 HOME_DIR=`pwd`
 VENV_DIR="${HOME_DIR}/venv"
 
