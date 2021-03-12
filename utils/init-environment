@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 
 HOME_DIR=`pwd`
-venvDir="$HOME_DIR/venv"
+VENV_DIR="${HOME_DIR}/venv"
 
-if [[ ! -d "$venvDir" ]]; then
+if [[ ! -d "${VENV_DIR}" ]]; then
     python3 -m venv venv
 fi
 
-source "${HOME_DIR}/venv/bin/activate"
+source "${VENV_DIR}/bin/activate"
 
 REQUIREMENTS="${HOME_DIR}/requirements.txt"
 
